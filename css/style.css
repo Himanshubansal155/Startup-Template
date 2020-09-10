@@ -7,6 +7,7 @@ body{
     color: white;
     font-family: 'Lato', sans-serif;
 }
+
 .flex{
     display: flex;
     width: 100%;
@@ -81,4 +82,18 @@ a:hover{
     opacity: 0.6;
     letter-spacing: 1.7px;
 
+}
+.h1-heading{
+    margin-top: 70px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+.h4-heading{
+    margin-top: 25px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+#section-2{
 }
