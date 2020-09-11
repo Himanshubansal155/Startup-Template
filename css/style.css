@@ -82,7 +82,7 @@ a:hover{
     font-weight: 400;
     opacity: 0.6;
     letter-spacing: 1.7px;
-
+    
 }
 .h1-heading{
     margin-top: 75px;
@@ -159,4 +159,44 @@ a:hover{
 .half a:hover{
     background-color: lightgray;
     color: black;
+}
+
+.fourth-1{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    width: 24.99%;
+    box-sizing: border-box;
+    margin: 10px;
+    color: black;
+}
+
+.fourth-1 img{
+    width: 100%;
+    filter: grayscale(59%);
+}
+
+.fourth-1 div{
+    padding: 16px;
+}
+        
+.fourth-1 div h2{
+    font-size: 30px;
+}
+.p-1{
+    opacity: 0.5;
+    margin: 16px 0;
+}
+.fourth-1 div p{
+    line-height: 26px;
+}
+.fourth-1 div button{
+    width: 100%;
+    border: 0;
+    padding: 8px 16px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fourth-1 div button:hover{
+    background-color: lightgray;
 }
