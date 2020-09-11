@@ -200,3 +200,24 @@ a:hover{
 .fourth-1 div button:hover{
     background-color: lightgray;
 }
+
+#section-5{
+    background-color: #616161;
+    margin-top: 100px;
+}
+
+#section-5>div{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.fifth{
+    width: 24.99%;
+    box-sizing: border-box;
+    color: white;
+    margin: 30px;
+    padding: 34px 0;
+    text-align: center;
+    font-size: 26px;
+}
