@@ -248,6 +248,7 @@ a:hover{
 
 #section-7>div{
     width: 97%;
+    margin-bottom: 0;
 }
 
 #section-7 .half{
@@ -285,6 +286,92 @@ a:hover{
 #bar-75{
     width: 75%;
 }
+
+#section-8{
+    background-color: #616161;
+}
+
+#section-8>div{
+    width: 97%;
+    margin-bottom: 0px;
+}
+
+#section-8 h1{
+    padding-top: 100px;
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+}
+
+#section-8 h4{
+    color: white;
+    font-size: 16px;
+}
+
+.third{
+    width: 33.3%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 40px 10px 100px;
+    background-color: #eaeaea;
+    font-size: large;
+}
+
+.third h5{
+    background-color: white;
+    padding: 32px 0;
+    background-color: black;
+    font-size: 20px;
+}
+
+.third p{
+    padding: 16px 0;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+.third .span{
+    font-size: 26px;
+    opacity: 1;
+}
+
+.third span{
+    background-color: white;
+    margin: 10px 0;
+    color: black;
+    display: block;
+    opacity: 0.5;
+}
+.third .red{
+    background-color: red;
+    padding: 48px 0;
+    opacity: 0.8;
+}
+
+#second{
+    margin: 24px 10px 84px;
+}
+
+.third:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.third button{
+    margin: 16px 0;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+}
+
+.third button:hover{
+    background-color: rgb(192, 192, 192);
+    border: 0;
+    color: black;
+}
+
 #section-9 img{
     width: 100%;
 }
