@@ -241,6 +241,50 @@ a:hover{
     opacity: 0.6;
 }
 
+#section-7{
+    background-color: #efefef;
+    margin-top: 90px;
+}
+
+#section-7>div{
+    width: 97%;
+}
+
+#section-7 .half{
+    box-sizing: border-box;
+}
+
+#section-7 p{
+    font-weight: 500;
+}
+
+#section-7 h5{
+    color: black;
+    font-size: 15px;
+    margin: 15px 0;
+    letter-spacing: 2.5px;
+}
+
+.progress{
+    background-color: grey;
+    width: 100%;
+}
+
+.progress-bar{
+    text-align: center;
+    background-color: #616161;
+    padding: 4px 0;
+}
+
+#bar-90{
+    width: 90%;
+}
+#bar-85{
+    width: 85%;
+}
+#bar-75{
+    width: 75%;
+}
 #section-9 img{
     width: 100%;
 }
