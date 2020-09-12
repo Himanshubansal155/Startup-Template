@@ -221,3 +221,26 @@ a:hover{
     text-align: center;
     font-size: 26px;
 }
+
+#section-6>div{
+    width: 98%;
+    flex-wrap: wrap;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.eight{
+    margin: 10px;
+    box-sizing: border-box;
+    width: 22.99%;
+}
+.eight img{
+    width: 100%;
+}
+.eight img:hover{
+    opacity: 0.6;
+}
+
+#section-9 img{
+    width: 100%;
+}
