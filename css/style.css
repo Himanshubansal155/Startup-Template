@@ -420,3 +420,32 @@ a:hover{
     margin: 10px 0;
     font-size: 16px;
 }
+
+#section-10{
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+}
+
+#section-10>a{
+    color: black;
+    background-color: #efefef;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#section-10 p{
+    margin: 30px 0 0;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+}
+
+#section-10 p a{
+    color: white;
+
+}
+#section-10 p i{
+    font-size: 28px;
+}
+
