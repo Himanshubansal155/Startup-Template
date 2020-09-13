@@ -159,29 +159,37 @@
         <h4 class="h4-heading">What we've done for people</h4>
         <div class="flex">
             <div class="eight">
-                <img src="images/tech_mic.jpg" alt="">
+                <img src="images/tech_mic.jpg" alt="A Microphone" onclick="onClick(this)">
             </div>
             <div class="eight">
-                <img src="images/tech_phone.jpg" alt="">
+                <img src="images/tech_phone.jpg" alt="A Phone" onclick="onClick(this)">
             </div>
             <div class="eight">
-                <img src="images/tech_drone.jpg" alt="">
+                <img src="images/tech_drone.jpg" alt="A Drone" onclick="onClick(this)">
             </div>
             <div class="eight">
-                <img src="images/tech_sound.jpg" alt="">
+                <img src="images/tech_sound.jpg" alt="A Sound" onclick="onClick(this)">
             </div>
             <div class="eight">
-                <img src="images/tech_tablet.jpg" alt="">
+                <img src="images/tech_tablet.jpg" alt="A Tablet" onclick="onClick(this)">
             </div>
             <div class="eight">
-                <img src="images/tech_camera.jpg" alt="">
+                <img src="images/tech_camera.jpg" alt="A Camera" onclick="onClick(this)">
             </div>
             <div class="eight">
-                <img src="images/tech_typewriter.jpg" alt="">
+                <img src="images/tech_typewriter.jpg" alt="A Typewriter" onclick="onClick(this)">
             </div>
             <div class="eight">
-                <img src="images/tech_tableturner.jpg" alt="">
+                <img src="images/tech_tableturner.jpg" alt="A Tableturner" onclick="onClick(this)">
             </div>
+        </div>
+    </div>
+
+    <div id="modal01" onclick="this.style.display = 'none'">
+        <span id="closeModal" title="Close Modal Image"><button onclick="document.getElementById('modal01').style.display = 'none'">&times;</button></span>
+        <div id="modal02">
+            <img src="" id="img01">
+            <p id="caption01"></p>
         </div>
     </div>
 
@@ -282,6 +290,15 @@
 
         <p>Powered By <a href="#">HB</a></p>
     </div>
+
+    <script>
+        function onClick(element){
+            document.getElementById('img01').src = element.src;
+            document.getElementById('caption01').innerHTML = element.alt;
+            let modal01 = document.getElementById('modal01');
+            modal01.style.display = 'block';
+        }
+    </script>
 </body>
 
 </html>
