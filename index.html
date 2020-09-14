@@ -11,8 +11,11 @@
 </head>
 
 <body>
+    <!-- Nav-bar for laptop an dother big screen devices -->
     <nav class="nav-bar">
-        <a href="#">LOGO</a>
+        <div style="display: inline-block;">
+            <a href="#">LOGO</a>
+        </div>
         <div class="right">
             <a href="#section-2">About</a>
             <a href="#section-4"><i class="fa fa-user"></i> Team</a>
@@ -20,7 +23,24 @@
             <a href="#section-8"><i class="fa fa-dollar"></i> Pricing</a>
             <a href="#section-9"><i class="fa fa-envelope"></i> Contact</a>
         </div>
+        <button class="nav-right" onclick="document.getElementById('left-animate').style.display = 'block'">
+            <div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </button>
     </nav>
+
+    <!-- Nav-bar for Mobiles and Tablets -->
+    <div id="left-animate">
+        <a href="#section-2"  onclick="document.getElementById('left-animate').style.display = 'none'">About</a>
+        <a href="#section-4"  onclick="document.getElementById('left-animate').style.display = 'none'"><i class="fa fa-user"></i> Team</a>
+        <a href="#section-6"  onclick="document.getElementById('left-animate').style.display = 'none'"><i class="fa fa-th"></i> Work</a>
+        <a href="#section-8"  onclick="document.getElementById('left-animate').style.display = 'none'"><i class="fa fa-dollar"></i> Pricing</a>
+        <a href="#section-9"  onclick="document.getElementById('left-animate').style.display = 'none'"><i class="fa fa-envelope"></i> Contact</a>
+        <button onclick="document.getElementById('left-animate').style.display = 'none'">Close &times;</button>
+    </div>
 
     <!-- Start something that matters -->
     <div id="section-1">
@@ -185,8 +205,10 @@
         </div>
     </div>
 
+    <!-- Modal for images in our work section -->
     <div id="modal01" onclick="this.style.display = 'none'">
-        <span id="closeModal" title="Close Modal Image"><button onclick="document.getElementById('modal01').style.display = 'none'">&times;</button></span>
+        <span id="closeModal" title="Close Modal Image"><button
+                onclick="document.getElementById('modal01').style.display = 'none'">&times;</button></span>
         <div id="modal02">
             <img src="" id="img01">
             <p id="caption01"></p>
@@ -291,8 +313,9 @@
         <p>Powered By <a href="#">HB</a></p>
     </div>
 
+    <!-- Script for modal images and nav-bar -->
     <script>
-        function onClick(element){
+        function onClick(element) {
             document.getElementById('img01').src = element.src;
             document.getElementById('caption01').innerHTML = element.alt;
             let modal01 = document.getElementById('modal01');

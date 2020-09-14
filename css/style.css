@@ -10,8 +10,9 @@ body{
 
 .flex{
     display: flex;
-    width: fit-content;
-    margin: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .nav-bar{
@@ -33,6 +34,52 @@ body{
     float: right;
 }
 
+.nav-right{
+    display: none;
+    float: right;
+    padding: 6px;
+    border: 0;
+    background-color: white;
+}
+#left-animate{
+    display: none;
+    background-color: black;
+    height: 100%;
+    width: 200px;
+    z-index: 2;
+    position: fixed;
+}
+
+#left-animate button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 19px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+
+#left-animate a{
+    display: block;
+    padding: 10px;
+    font-size: 19px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+#left-animate button:hover, #left-animate a:hover{
+    background-color: lightgrey;
+}
+.lines{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 4px;
+}
 a:hover{
     background-color: lightgray;
 }
@@ -216,16 +263,13 @@ a:hover{
     width: 24.99%;
     box-sizing: border-box;
     color: white;
-    margin: 30px;
-    padding: 34px 0;
+    padding: 34px;
     text-align: center;
     font-size: 26px;
 }
 
 #section-6>div{
-    width: 98%;
     flex-wrap: wrap;
-    margin: 20px;
     box-sizing: border-box;
 }
 
@@ -247,7 +291,6 @@ a:hover{
 }
 
 #section-7>div{
-    width: 97%;
     margin-bottom: 0;
 }
 
@@ -292,7 +335,6 @@ a:hover{
 }
 
 #section-8>div{
-    width: 97%;
     margin-bottom: 0px;
 }
 
@@ -494,5 +536,94 @@ a:hover{
     padding: 20px 0;
     font-size: 25px;
     font-family: monospace;
+}
+
+
+@media screen and (max-width:1015px){
+    .eight{
+        width: 45.99%;
+    }
+}
+
+@media screen and (max-width:620px){
+    #section-4>div{
+        display: block;
+    }
+    .nav-bar{
+        padding: 0;
+    }
+    .nav-right{
+        display: block;
+    }
+    .nav-bar a{
+        padding: 12px;
+        display: inline-flex;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .fifth{
+        width: 100%;
+    }
+
+    .third{
+        width: 94%;
+        margin-bottom: 0;
+    }
+    #second{
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+
+    .fourth-1{
+        width: 96.99%;
+        margin: 20px 10px;
+    }
+    
+    .eight{
+        width: 95.99%;
+        margin: 20px 10px;
+    }
+    
+    .flex{
+        display: block;
+    }
+    
+    .fourth{
+        width: 93.99%;
+    }
+    
+    .half{
+        width: 95.99%;
+        margin: 20px 10px 0;
+        padding: 30px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .half p{
+        padding-right: 0;
+    }
+
+    #section-1 h1{
+        font-size: 28px;
+        letter-spacing: 2px;
+        margin-bottom: 28px;
+    }
+    #section-1 h4{
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom: 24px;
+    }
+
+    #section-1 button{
+        padding: 12px;
+        font-size: 12px;
+        font-weight: 400;
+        opacity: 0.6;
+        letter-spacing: 1px;
+    }
 }
 
